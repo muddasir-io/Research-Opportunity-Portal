@@ -1,0 +1,25 @@
+{
+  "name": "research-opportunity-portal",
+  "version": "1.0.0",
+  "description": "University Research Opportunity Portal - Backend REST API & Frontend Interface",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "rest-api",
+    "research-portal",
+    "crud"
+  ],
+  "author": "FAST NUCES Student",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  }
+}
